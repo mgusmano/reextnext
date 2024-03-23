@@ -9,8 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gusmano/reext": "^0.0.339",
+    "next": "14.2.0-canary.39",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.4"
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.69",
+    "typescript": "5.4.3"
   }
 }

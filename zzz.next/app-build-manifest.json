@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "/ref/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ref/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-app_layout_global_css.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/reextgrid/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/reextgrid/page.js"
+    ],
+    "/reextbutton/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/reextbutton/page.js"
+    ]
+  }
+}
