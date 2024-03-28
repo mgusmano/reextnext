@@ -1,19 +1,4 @@
-import React, { useRef, useEffect, forwardRef } from 'react';
-
-// export const Test = forwardRef((props, ref) => {
-//     console.log('Test ref', ref)
-//     useEffect(() => {
-//         (async () => {
-//             console.log('TestRef.current', ref.current)
-//         })();
-//     }, [])
-
-//     return (
-//         <div ref={ref}>
-//             test component
-//         </div>
-//     );
-// });
+import React, { useRef, useEffect } from 'react';
 
 export function Test(props) {
     const TestRef = useRef(null);
@@ -24,7 +9,7 @@ export function Test(props) {
     }, [])
     return (
       <div ref={TestRef}>
-        test component
+        test component2
       </div>
     );
   }

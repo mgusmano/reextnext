@@ -3,19 +3,18 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
 export default function Nav() {
-  const pathname = usePathname();
   const links = [
     { name: 'Home', href: { pathname: '/' } },
     { name: 'ReExt Button', href: { pathname: '/reextbutton' } },
-    { name: 'ReExt Grid', href: { pathname: '/reextgrid' } },
-    { name: 'ref', href: { pathname: '/ref' } },
+    { name: 'ReExt Grid with custom store', href: { pathname: '/reextgrid' } },
+    { name: 'ReExt Grid and Server Component', href: { pathname: '/reextandservercomponent', query: { personid: 276597 } } },
   ];
 
   return (
-    <div className="zcol navborder">
+    <div className="zcol znav">
       {links.map((link) => {
         return (
-          <Link key={link.name} href={link.href} className="link">
+          <Link className="zlink" key={link.name} href={link.href}>
             {link.name}
           </Link>
         );

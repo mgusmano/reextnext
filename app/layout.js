@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
           <Header />
           <div className="zrow">
             <Nav />
-            <div className="zrow">{children}</div>
+            <div className="zcol">{children}</div>
           </div>
           <Footer />
         </ReExtProvider>

@@ -3,11 +3,11 @@ import ReExt from "@gusmano/reext";
 
 export default function Home() {
   return (
-    <div>
-      <ReExt xtype='logosmall' style={{ height: 90, margin: '5px' }} />
+    <div className='zcol'>
+      <ReExt xtype='logosmall' style={{ height: 50, margin: '5px' }} />
       <ReExt
         xtype="button"
-        style={{ padding: 10, width: 100 }}
+        style={{ padding: 10, width: 100, height: 50 }}
         config={{ text: "Hello World" }}
         onTap={() => alert("Hello World")}
       />
