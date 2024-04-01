@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       "froalaeditor": false
     },
     "debug": false,
-    "license": "b116e32e-0847-4764-94ef-a16987070407",
+    "license": "b116e32e-0847-4764-94ef-a16987070409",
     "url": "local"
   }
   return (

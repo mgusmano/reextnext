@@ -2,12 +2,13 @@
 import ReExt from '@gusmano/reext';
 
 export default function Grid({ people }) {
+  console.log('people', people)
   return (
     <div className="zcol">
       <ReExt xtype='logosmall' style={{ height: 50, margin: '5px' }} rid="1711935751115" />
       <ReExt xtype='grid'
       style={{ padding: 10 }}
-      nfig={{
+      config={{
         ttle: 'People',
         store: {
           data: people
